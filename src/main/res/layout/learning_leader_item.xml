@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:background="@color/white"
+    android:id="@+id/card_view">
+
+    <!-- <RelativeLayout-->
+    <!-- android:layout_width="match_parent"-->
+    <!-- android:layout_height="wrap_content"-->
+    <!-- android:layout_marginTop="5dp"-->
+    <!-- android:layout_marginBottom="5dp">-->
+
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:id="@+id/leader_image"
+        android:layout_width="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginHorizontal="15dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/learning_hrs"
+        android:layout_width="wrap_content"
+        android:text="@string/TextView"
+        android:layout_toEndOf="@id/leader_image"
+        android:layout_below="@id/leader"
+        android:layout_toRightOf="@id/leader_image" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:text="@string/TextView"
+        android:layout_toEndOf="@id/learning_hrs"
+        android:layout_below="@id/leader"
+        android:layout_toRightOf="@id/learning_hrs" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/leader"
+        android:layout_width="wrap_content"
+        android:text="@string/TextView"
+        android:layout_toEndOf="@id/leader_image"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/leader_image" />
+
+
+</LinearLayout>

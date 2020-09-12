@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">GADS2020</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="leaderboard">LEADERBOARD</string>
+
+    <string name="submit">Submit</string>
+    <string name="skilliq">api/skilliq</string>
+    <string name="TextView">TextView</string>
+
+</resources>
